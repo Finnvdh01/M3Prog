@@ -1,9 +1,16 @@
 <?php 
-$aantalopvooraad = 20;
+$aantalopvooraad = 1;
 $opvooraad = $aantalopvooraad > 0;
 $eenBoolVariable = false;
-if($opvooraad	== true)
+
+//if($opvooraad	== false)
+if($aantalopvooraad > 0)
 {
     echo "niet op voorraad";
+}
+
+else
+{
+    echo "Artiekel is op voorraad";
 }
 ?>
