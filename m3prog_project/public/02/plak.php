@@ -8,4 +8,5 @@ $achternaam = 'mario';
 $fullname = $voornaam $achternaam;
 echo $fullname;
 echo '<br>';
+
 ?>
