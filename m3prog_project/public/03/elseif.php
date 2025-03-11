@@ -10,18 +10,19 @@ $stoplichtkleur = 'R';
     <title>Document</title>
 </head>
 <body>
+
     <?php
     if()//als Groen
     {
-       echo <button style='background-color:#FF0000; height:25px; width:25px;'/>
+
     }
     else if()//als orangje
     {
-       echo <button style='background-color:#FF0000;height:25px;width:25px;'/>
+       
     }
     else//als rood
     { 
-        echo <button style='background-color:#FF0000;height:25px;width:25px;'/>
+       
     }
 
     
