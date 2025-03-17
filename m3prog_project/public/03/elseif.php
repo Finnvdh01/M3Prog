@@ -1,5 +1,5 @@
 <?php 
-$stoplichtkleur = 'R';
+$stoplichtkleur = 'G';
 ?>
 
 <!DOCTYPE html>
@@ -12,17 +12,18 @@ $stoplichtkleur = 'R';
 <body>
 
     <?php
-    if()//als Groen
+    if($stoplichtkleur == "G")//als Groen
     {
-
+        echo  "<button style='background-color:#64cc25;height:25px;width:25px;'/>";
     }
-    else if()//als orangje
+    else if($stoplichtkleur == "O")//als orangje
     {
-       
+        echo  "<button style='background-color:#faba10;height:25px;width:25px;'/>";
     }
     else//als rood
     { 
        
+      echo  "<button style='background-color:#ff0000;height:25px;width:25px;'/>";
     }
 
     
