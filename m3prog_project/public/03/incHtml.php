@@ -13,7 +13,7 @@ $loggedin = false;
     <?php 
     if(isSet($_GET['loggedin']))
     {
-       $loggedin=true;
+       $loggedin=false;
     }
     else
     {
