@@ -37,7 +37,7 @@ print("<br>");
 // vraag 1) We geven het resultaat door met een print functie
 // strtoupper bron: https://www.php.net/manual/en/function.strtoupper.php
 
-    $naam = "Wario";
+    $naam = "pac-man";
     $naamGroot = strtoupper($naam);
     print($naamGroot);
 
