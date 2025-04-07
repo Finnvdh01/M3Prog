@@ -8,26 +8,26 @@ function add($getal1, $getal2)
 
 
 $results = add(4,9);
-echo $results;
+//echo $results;
 echo "<br>";
 $results = add(100,100);
-echo $results;
+//echo $results;
 echo "<br>";
 $results = add(33,333);
-echo $results;
+//echo $results;
 function subtract($getal1, $getal2){
     $som = $getal1 - $getal2;
     return $som;
 } 
 $resultsSubtraction = subtract(30,7);
-echo $resultsSubtraction;
+//echo $resultsSubtraction;
 echo "<br>";
 function divide($getal1, $getal2){
     $som = $getal1 / $getal2;
     return $som;
 }
 $resultsDivision = divide(25,4);
-echo $resultsDivision;
+//echo $resultsDivision;
 echo "<br>";
 function multiply($getal1, $getal2){
     $som = $getal1 * $getal2;
@@ -35,6 +35,6 @@ function multiply($getal1, $getal2){
 }
 
 $resultsMultiply = multiply(3, 7);
-echo $resultsMultiply;
+//echo $resultsMultiply;
 echo "<br>";
 ?>
